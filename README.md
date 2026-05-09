@@ -24,28 +24,6 @@ Extensive experiments on the **VisDrone2019** and **SIMD** datasets demonstrate 
 - **SA-WIoU** strengthens localization supervision for small-scale objects without introducing additional model parameters.
 - Competitive performance on **VisDrone2019** and **SIMD** with significantly fewer parameters than many mainstream detectors.
 
-## Main Results
-
-### VisDrone2019
-
-GS-YOLO achieves strong performance on the VisDrone2019 dataset while using significantly fewer parameters.
-
-| Model | AP | AP50 | FLOPs | Params |
-|---|---:|---:|---:|---:|
-| GS-YOLO-N | 21.2 | 36.0 | 8.4G | 0.8M |
-| GS-YOLO-S | 26.4 | 43.5 | 26.9G | 2.7M |
-| GS-YOLO-M | 29.1 | 47.0 | 65.9G | 7.0M |
-| GS-YOLO-L | 29.8 | 47.9 | 130.4G | 14.2M |
-| GS-YOLO-X | 30.3 | 48.8 | 201.7G | 22.2M |
-
-### SIMD
-
-GS-YOLO-M also achieves competitive performance on the SIMD dataset.
-
-| Model | AP | AP50 | FLOPs | Params |
-|---|---:|---:|---:|---:|
-| GS-YOLO-M | 67.0 | 82.5 | 65.9G | 7.0M |
-
 ## Requirements
 
 The recommended environment is listed below.
